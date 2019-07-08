@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Index from '@/components/Index';
 const Login = resolve => require(['@/components/Login'], resolve);
 const SignUp = resolve => require(['@/components/SignUp'], resolve);
 const CheckPhone = resolve => require(['@/components/signUp/CheckPhone'], resolve);
@@ -27,7 +26,7 @@ export default new Router({
     {
       path: '/', // 首页
       name: 'Index',
-      component: Index
+      component: GoodsList
     },
     {
       path: '/Login', // 登录

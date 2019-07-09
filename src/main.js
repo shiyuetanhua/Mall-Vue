@@ -5,6 +5,9 @@ import App from './App';
 import router from './router';
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
+import './assert/css/style.css';
+import './assert/css/bootstrap.min.css';
+import $ from 'jquery';
 
 Vue.use(iView);
 Vue.config.productionTip = false;
